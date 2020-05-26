@@ -1,21 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>José Marcelino Spera Queiroz</title>
     <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
-  <header>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Portfólio</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
-    <h1 class="site-title">José Marcelino Spera Queiroz</h1>
-    <h2 class="site-subtitle">Test Analyst</h2>
-  </header>     
-</body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+   >
+
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Interesses</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
+        <h1 class="site-title">José Marcelino Spera Queiroz</h1>
+      </div>
+    </header>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <figure class="avatar">
+        <img src="./img/home/eu.jpg" alt="Marcelino Spera">
+      </figure>
+
+      <p>
+        <br>Bem vindo(a) a minha página pessoal !</br>
+        <br>Meu nome é José Marcelino Spera Queiroz.</br>
+        <br>Sou paulistano, casado e a seguir você pode conhecer um pouco mais sobre meus interesses, familía, trabalho e projetos pessoais!</br>
+      </p>
+ 
+
+      <p>
+        <br>Este site foi construído entre 11 e 15 de maio/2020 durante o período de quarentena (em razão do COVID-19) através de um curso promovido pela Alura.</br>
+        <br>Gostaria de agradecer ao Paulo Silveira, Vanessa Tonini e Juliana Amoasei por compartilharem seus conhecimentos.</br></br>
+        <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+        
+      </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2>Interesses</h2>
+
+      <div class="grid">
+		  
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/home/Credito-CBN-Globo-b11e15d0-3330-4ab1-88e3-91fedecb8a13.jpg.320x180_q75_box-0,51,960,591_crop_detail.jpg" alt="Conhecimento">
+            </figure>
+            <div class="card-back">
+              <h3><a href="lazer.html">Lazer</a></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/home/Creditos-pixabay.com-PaiMaeCriancaPequena.png" alt="Família">
+            </figure>
+            <div class="card-back">
+              <h3><a href="familia.html">Família</a></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/home/Creditos-pixabay.com-Codigo-javascript-programa.png" alt="Trabalho">
+            </figure>
+            <div class="card-back">
+				      <h3><a href="trabalho.html">Trabalho</a></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/home/Creditos-pixabay.com-lapis-notas-mastigado-bola-de-papel.png" alt="Projetos Pessoais">
+            </figure>
+            <div class="card-back">
+              <h3><a href="projetospessoais.html">Projetos Pessoais</a></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/home/Creditos-pixabay.com-olympia-.jpg" alt="Esportes">
+            </figure>
+          <div class="card-back">
+            <h3><a href="esportes.html">Esportes</a></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/home/Credito-istoe-15c49ddd32876d48d1ec4f13416e606546bec6d4.jpg" alt="Solidariedade">
+          </figure>
+        <div class="card-back">
+          <h3><a href="solidariedade.html">Solidariedade</a></h3>
+        </div>
+      </div>
+    </div>
+
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/MarcelinoSpera">
+          <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/marcelino-spera-queiroz-32361034/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:marcelino.spera@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
